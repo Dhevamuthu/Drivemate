@@ -1,0 +1,110 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0;
+} */
+.main{
+  background: linear-gradient(to right, rgb(79, 79, 245), rgb(0, 145, 255), rgb(92, 213, 222));
+  height:712px;
+  width:1520px;
+}
+.signin{
+  display: flex;
+}
+.signin form{
+  padding-top: 100px;
+  margin-left: 200px;
+  height:300px;
+  width:700px;
+}
+
+.signin form h2{
+  color:black;
+  font-size:32px;
+}
+
+.formfield{
+  display:flex;
+  font-family:'Gill Sans', 'Gill Sans MT';
+  font-size: 20px;
+}
+
+.formfield input{
+  height: 40px;
+  width:200px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+ border-color: gainsboro;
+}
+.signin form button{
+  margin-left: 110px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height:70px;
+  border-radius: 15px;
+  width: 150px;
+  background-color:orange;
+  font-family: 'Trebuchet MS';
+  border: transparent;
+}
+
+.signin form button:hover{
+  background-color: rgb(58, 240, 158);
+}
+
+.signin form a{
+  margin-left: 110px;
+  text-decoration: none;
+  color: blueviolet;
+}
+
+.signin form a:hover{
+  color: yellowgreen;
+}
+
+.header{
+  text-align: center;
+ 
+}
+
+.signin img{
+  height:650px;
+  width:650px;
+  padding-left: 200px;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding:20px;
+  opacity:65%;
+  border-radius: 50px;
+}
+
+.header img{
+  height:100px;
+  width: 100px;
+  border-radius: 70%;
+  float: left;
+  padding:10px;
+}
+
+/* Register as User or Driver */
+
+.register,
+.register h2{
+  margin:0;
+}
+.register button{
+  display:inline-block;
+  margin-left: 20px;
+  height:60px;
+  width:120px;
+  border-radius: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size:20px;
+  border: transparent;
+  background-color: black;
+  color:white;
+}
+
+.register button:hover{
+  cursor: pointer;
+}
